@@ -3,6 +3,7 @@ package com.example.apppresensi.ui.landing
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.apppresensi.MainActivity
 import com.example.apppresensi.R
 import com.example.apppresensi.databinding.ActivityLandingScreenBinding
 import com.example.apppresensi.ui.login.LoginActivity
@@ -19,7 +20,7 @@ class LandingScreen : AppCompatActivity() {
         supportActionBar?.hide()
 
         binding.login.setOnClickListener {
-            val intentLogin = Intent(this@LandingScreen, LoginActivity::class.java)
+            val intentLogin = Intent(this@LandingScreen, MainActivity::class.java)
             startActivity(intentLogin)
         }
 

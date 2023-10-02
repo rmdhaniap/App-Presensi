@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">App Presensi</string>
+    <string name="info">Ambil foto selfie saat presensi!</string>
+    <string name="ambil_foto_selfie">Ambil Foto Selfie</string>
+    <string name="nama_anda">Nama Anda</string>
+    <string name="masukan_nama_anda">Masukan nama Anda</string>
+    <string name="tanggal_amp_waktu"><![CDATA[Tanggal & Waktu]]></string>
+    <string name="masukan_tanggal_dan_waktu">Masukan tanggal dan waktu</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="masukan_lokasi">Masukan lokasi</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="masukan_keterangan">Masukan Keterangan</string>
+    <string name="submit">Submit</string>
 </resources>
